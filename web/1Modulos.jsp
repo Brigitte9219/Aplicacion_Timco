@@ -1,6 +1,6 @@
 <%-- 
-    Document   : index
-    Created on : 30 oct 2023, 10:27:42
+    Document   : 1Modulos
+    Created on : 30 oct 2023, 11:31:06
     Author     : brigi
 --%>
 
@@ -9,41 +9,54 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" href="css/style.css">
-        <!--Import Google Icon Font-->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <!-- Compiled and minified CSS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-        <title>Inicio</title>
+        <link rel="stylesheet" href="css/1Modulos.css">
+    <title>Módulos</title>
+
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     </head>
     <body>
-        
         <main class="main">
 
 <!--Encabezado-->
+<div class="primero">
 <header class="cabecera">
-    <h1>SISTEMA DE INVENTARIOS</h1>
-    <h1>TIMCO S.A.S.</h1>
+    <h3>SISTEMA DE INVENTARIOS TIMCO S.A.S.</h3>
 </header>
-
-<br>
 
 <!--Menú de navegación-->
 <nav class="navegacion">
     <div class="rectangulo">
-            <a href="1Modulos.jsp">Módulos</a>
-            <a href="2Contacto.jsp">Contacto</a>
-            <a href="3PQRSF.jsp">PQRSF</a>
+        <a href="index.jsp">Inicio</a>
+        <a href="1Modulos.jsp">Módulos</a>
+        <a href="2Contacto.jsp">Contacto</a>
+        <a href="3PQRSF.jsp">PQRSF</a>
     </div>
 </nav>
+</div>
 
 <!--CONTENIDO-->
-<!--Sección de imagen-->
-<section>
-<div>
-    <img src="img/1.jpg" width="100%" />
-</div>
+<!--Sección 1-->
+<section class="modulos">
+    <p><h1><b>MÓDULOS</b></h1></p>
 </section>
+<br>
+
+<!--Sección 2-->
+<section class="menu">
+    <div class="botones">
+        <a href="usuarios.html">Gestión de usuarios</a><br><br>
+        <a href="trabajadores.html">Información de los trabajadores</a><br><br>
+        <a href="productos.html">Información de los productos</a><br><br>
+        <a href="solicitar.html">Solicitar productos</a><br><br>
+        <a href="asignar.html">Asignar un producto</a><br><br>
+        <a href="reportes.html">Gestionar reportes o informes</a><br><br>
+    </div>
+</section>
+<br><br>
 
 <!--Pie de página-->
 <!--Sección de título-->
