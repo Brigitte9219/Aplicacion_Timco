@@ -48,12 +48,12 @@
 <!--Sección 2-->
 <section class="menu">
     <div class="botones">
-        <a href="usuarios.html">Gestión de usuarios</a><br><br>
-        <a href="trabajadores.html">Información de los trabajadores</a><br><br>
-        <a href="productos.html">Información de los productos</a><br><br>
-        <a href="solicitar.html">Solicitar productos</a><br><br>
-        <a href="asignar.html">Asignar un producto</a><br><br>
-        <a href="reportes.html">Gestionar reportes o informes</a><br><br>
+        <a href="usuarios.jsp">Gestión de usuarios</a><br><br>
+        <a href="trabajadores.jsp">Información de los trabajadores</a><br><br>
+        <a href="productos.jsp">Información de los productos</a><br><br>
+        <a href="solicitar.jsp">Solicitar productos</a><br><br>
+        <a href="asignar.jsp">Asignar un producto</a><br><br>
+        <a href="reportes.jsp">Gestionar reportes o informes</a><br><br>
     </div>
 </section>
 <br><br>
