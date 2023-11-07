@@ -40,12 +40,12 @@ public class Trabajador {
     public String Emergencia_Parentesco;
     public String Emergencia_TelefonoMovil;
     public String Emergencia_TelefonoFijo;
-    public int usuarios_idusuarios;
+    public int usuarios_idusuario;
     
     
     // Método constructor para inicializar los atributos
 
-    public Trabajador(int idtrabajador, String Nombre_Completo, String Correo_Electronico, char Tipo_ID, int Numero_ID, Date Fecha_Expedicion, String Ciudad_Expedicion, Date Fecha_Nacimiento, String Lugar_Nacimiento, int Edad, double Estatura, String Genero, String Estado_Civil, String RH, String Grupo_Sanguineo, String Localidad, String Ciudad_Residencia, String Barrio, String Direccion, String Telefono_Movil, String Telefono_Fijo, String EPS, String AFP, String Escolaridad, String Profesion, String Talla_Camisa, String Talla_Pantalon, String Talla_Chaqueta, String Talla_Calzado, String Emergencia_NombreCompleto, String Emergencia_Parentesco, String Emergencia_TelefonoMovil, String Emergencia_TelefonoFijo, int usuarios_idusuarios) {
+    public Trabajador(int idtrabajador, String Nombre_Completo, String Correo_Electronico, char Tipo_ID, int Numero_ID, Date Fecha_Expedicion, String Ciudad_Expedicion, Date Fecha_Nacimiento, String Lugar_Nacimiento, int Edad, double Estatura, String Genero, String Estado_Civil, String RH, String Grupo_Sanguineo, String Localidad, String Ciudad_Residencia, String Barrio, String Direccion, String Telefono_Movil, String Telefono_Fijo, String EPS, String AFP, String Escolaridad, String Profesion, String Talla_Camisa, String Talla_Pantalon, String Talla_Chaqueta, String Talla_Calzado, String Emergencia_NombreCompleto, String Emergencia_Parentesco, String Emergencia_TelefonoMovil, String Emergencia_TelefonoFijo, int usuarios_idusuario) {
         this.idtrabajador = idtrabajador;
         this.Nombre_Completo = Nombre_Completo;
         this.Correo_Electronico = Correo_Electronico;
@@ -79,7 +79,7 @@ public class Trabajador {
         this.Emergencia_Parentesco = Emergencia_Parentesco;
         this.Emergencia_TelefonoMovil = Emergencia_TelefonoMovil;
         this.Emergencia_TelefonoFijo = Emergencia_TelefonoFijo;
-        this.usuarios_idusuarios = usuarios_idusuarios;
+        this.usuarios_idusuario = usuarios_idusuario;
     }
     
     
@@ -349,12 +349,12 @@ public class Trabajador {
         this.Emergencia_TelefonoFijo = Emergencia_TelefonoFijo;
     }
 
-    public int getUsuarios_idusuarios() {
-        return usuarios_idusuarios;
+    public int getUsuarios_idusuario() {
+        return usuarios_idusuario;
     }
 
-    public void setUsuarios_idusuarios(int usuarios_idusuarios) {
-        this.usuarios_idusuarios = usuarios_idusuarios;
+    public void setUsuarios_idusuario(int usuarios_idusuario) {
+        this.usuarios_idusuario = usuarios_idusuario;
     }
     
     
