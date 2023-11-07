@@ -16,13 +16,13 @@ public class Producto {
     public String Referencia;
     public String Lote;
     public String Norma_Tecnica;
-    public int cantidad;
+    public int Cantidad;
     public String Proveedor;
     public int usuarios_idusuario;
     
 
     // Método constructor para inicializar los atributos
-    public Producto(int idproducto, String Nombre_Producto, String Codigo_Interno, String Marca, String Serie, Date Fecha_Fabricacion, String Referencia, String Lote, String Norma_Tecnica, int cantidad, String Proveedor, int usuarios_idusuario) {
+    public Producto(int idproducto, String Nombre_Producto, String Codigo_Interno, String Marca, String Serie, Date Fecha_Fabricacion, String Referencia, String Lote, String Norma_Tecnica, int Cantidad, String Proveedor, int usuarios_idusuario) {
         this.idproducto = idproducto;
         this.Nombre_Producto = Nombre_Producto;
         this.Codigo_Interno = Codigo_Interno;
@@ -32,7 +32,7 @@ public class Producto {
         this.Referencia = Referencia;
         this.Lote = Lote;
         this.Norma_Tecnica = Norma_Tecnica;
-        this.cantidad = cantidad;
+        this.Cantidad = Cantidad;
         this.Proveedor = Proveedor;
         this.usuarios_idusuario = usuarios_idusuario;
     }
@@ -113,11 +113,11 @@ public class Producto {
     }
 
     public int getCantidad() {
-        return cantidad;
+        return Cantidad;
     }
 
-    public void setCantidad(int cantidad) {
-        this.cantidad = cantidad;
+    public void setCantidad(int Cantidad) {
+        this.Cantidad = Cantidad;
     }
 
     public String getProveedor() {
