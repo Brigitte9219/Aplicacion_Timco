@@ -3,7 +3,7 @@ package Asignar_Productos;
 
 import java.sql.Date;
 
-//Definición de la clase Adignacion
+//Definición de la clase Asignacion
 public class Asignacion {
     
     //Definición de los atributos o variables de la clase

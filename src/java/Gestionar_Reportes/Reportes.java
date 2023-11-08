@@ -3,9 +3,10 @@ package Gestionar_Reportes;
 
 import java.sql.Date;
 
-
+//Definición de la clase Reportes
 public class Reportes {
     
+    //Definición de los atributos o variables de la clase
     public int idreportes;
     public String Nombre_Trabajador;
     public int trabajador_Numero_ID;
@@ -16,6 +17,8 @@ public class Reportes {
     public String Area;
     public int usuarios_idusuario;
 
+    
+    // Método constructor para inicializar los atributos
     public Reportes(int idreportes, String Nombre_Trabajador, int trabajador_Numero_ID, String Nombre_Producto, Date Fecha_Inicio, Date Fecha_Final, String Proyecto, String Area, int usuarios_idusuario) {
         this.idreportes = idreportes;
         this.Nombre_Trabajador = Nombre_Trabajador;
@@ -28,6 +31,8 @@ public class Reportes {
         this.usuarios_idusuario = usuarios_idusuario;
     }
 
+    
+    // Getters y setters - Acceder y Modificar
     public int getIdreportes() {
         return idreportes;
     }
