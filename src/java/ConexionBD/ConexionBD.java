@@ -16,8 +16,9 @@ public class ConexionBD {
                 String usuario = "root";
                 String contraseña = "";
                 conexion = DriverManager.getConnection(url, usuario, contraseña);
-            }
-        } catch (ClassNotFoundException | SQLException e) {
+            }           
+        } catch (Exception e) {
+            System.out.println("Se ha producido un error: " + e.getMessage());
             e.printStackTrace();
         }
         return conexion;
