@@ -36,8 +36,8 @@ public class Producto {
         this.Proveedor = Proveedor;
         this.usuarios_idusuario = usuarios_idusuario;
     }
-    
-    
+
+      
     // Getters y setters - Acceder y Modificar
 
     public int getIdproducto() {
