@@ -1,64 +1,62 @@
 
-package Solicitar_Productos;
-
-//Definición de la clase Solicitud
+package modelo;
 
 import java.sql.Date;
 
-public class Solicitud {
+
+//Definición de la clase Asignación
+public class Asignacion {
     
-    //Definición de los atributos o variables de la clase
-    public int idsolicitud;
-    public java.sql.Date Fecha_Solicitud;
-    public String Nombre_Trabajador;
-    public int trabajador_Numero_ID;
-    public String producto_Nombre_Producto;
-    public int Cantidad;
-    public String Talla;
-    public String Actividad_aRealizar;
-    public String Proyecto;
-    public String Area;
-    public String Observaciones;
-    
-    
-    // Método constructor para inicializar los atributos
-    public Solicitud(int idsolicitud, Date Fecha_Solicitud, String Nombre_Trabajador, int trabajador_Numero_ID, String producto_Nombre_Producto, int Cantidad, String Talla, String Actividad_aRealizar, String Proyecto, String Area, String Observaciones) {
-        this.idsolicitud = idsolicitud;
-        this.Fecha_Solicitud = Fecha_Solicitud;
+    //Definición de los atributos o variables
+    private int idasignacion;
+    private Date Fecha_Asignacion;
+    private int Nombre_Trabajador;
+    private int trabajador_Numero_ID;
+    private String producto_Nombre_Producto;
+    private int Cantidad;
+    private String Talla;
+    private String Proyecto;
+    private String Area;
+    private String Observaciones;
+    private int usuarios_idusuario;
+
+    //Método constructor para inicializar los atributos
+    public Asignacion(int idasignacion, Date Fecha_Asignacion, int Nombre_Trabajador, int trabajador_Numero_ID, String producto_Nombre_Producto, int Cantidad, String Talla, String Proyecto, String Area, String Observaciones, int usuarios_idusuario) {
+        this.idasignacion = idasignacion;
+        this.Fecha_Asignacion = Fecha_Asignacion;
         this.Nombre_Trabajador = Nombre_Trabajador;
         this.trabajador_Numero_ID = trabajador_Numero_ID;
         this.producto_Nombre_Producto = producto_Nombre_Producto;
         this.Cantidad = Cantidad;
         this.Talla = Talla;
-        this.Actividad_aRealizar = Actividad_aRealizar;
         this.Proyecto = Proyecto;
         this.Area = Area;
         this.Observaciones = Observaciones;
+        this.usuarios_idusuario = usuarios_idusuario;
     }
 
-    
     // Getters y setters - Acceder y Modificar
-    public int getIdsolicitud() {
-        return idsolicitud;
+    public int getIdasignacion() {
+        return idasignacion;
     }
 
-    public void setIdsolicitud(int idsolicitud) {
-        this.idsolicitud = idsolicitud;
+    public void setIdasignacion(int idasignacion) {
+        this.idasignacion = idasignacion;
     }
 
-    public Date getFecha_Solicitud() {
-        return Fecha_Solicitud;
+    public Date getFecha_Asignacion() {
+        return Fecha_Asignacion;
     }
 
-    public void setFecha_Solicitud(Date Fecha_Solicitud) {
-        this.Fecha_Solicitud = Fecha_Solicitud;
+    public void setFecha_Asignacion(Date Fecha_Asignacion) {
+        this.Fecha_Asignacion = Fecha_Asignacion;
     }
 
-    public String getNombre_Trabajador() {
+    public int getNombre_Trabajador() {
         return Nombre_Trabajador;
     }
 
-    public void setNombre_Trabajador(String Nombre_Trabajador) {
+    public void setNombre_Trabajador(int Nombre_Trabajador) {
         this.Nombre_Trabajador = Nombre_Trabajador;
     }
 
@@ -94,14 +92,6 @@ public class Solicitud {
         this.Talla = Talla;
     }
 
-    public String getActividad_aRealizar() {
-        return Actividad_aRealizar;
-    }
-
-    public void setActividad_aRealizar(String Actividad_aRealizar) {
-        this.Actividad_aRealizar = Actividad_aRealizar;
-    }
-
     public String getProyecto() {
         return Proyecto;
     }
@@ -125,8 +115,16 @@ public class Solicitud {
     public void setObservaciones(String Observaciones) {
         this.Observaciones = Observaciones;
     }
+
+    public int getUsuarios_idusuario() {
+        return usuarios_idusuario;
+    }
+
+    public void setUsuarios_idusuario(int usuarios_idusuario) {
+        this.usuarios_idusuario = usuarios_idusuario;
+    }
     
     
     
-    
+       
 }

@@ -1,5 +1,5 @@
 
-package Informacion_Trabajadores;
+package modelo;
 
 import java.sql.Date;
 
@@ -7,45 +7,48 @@ import java.sql.Date;
 public class Trabajador {
     
     //Definición de los atributos o variables de la clase
-    public int idtrabajador;
-    public String Nombre_Completo;
-    public String Correo_Electronico;
-    public char Tipo_ID;
-    public int Numero_ID;
-    public java.sql.Date Fecha_Expedicion;
-    public String Ciudad_Expedicion;
-    public java.sql.Date Fecha_Nacimiento;
-    public String Lugar_Nacimiento;
-    public int Edad;
-    public double Estatura;
-    public String Genero;
-    public String Estado_Civil;
-    public String RH;
-    public String Grupo_Sanguineo;
-    public String Localidad;
-    public String Ciudad_Residencia;
-    public String Barrio;
-    public String Direccion;
-    public String Telefono_Movil;
-    public String Telefono_Fijo;
-    public String EPS;
-    public String AFP;
-    public String Escolaridad;
-    public String Profesion;
-    public String Talla_Camisa;
-    public String Talla_Pantalon;
-    public String Talla_Chaqueta;
-    public String Talla_Calzado;
-    public String Emergencia_NombreCompleto;
-    public String Emergencia_Parentesco;
-    public String Emergencia_TelefonoMovil;
-    public String Emergencia_TelefonoFijo;
-    public int usuarios_idusuario;
-    
-    
-    // Método constructor para inicializar los atributos
+    private int idtrabajador;
+    private String Nombre_Completo;
+    private String Correo_Electronico;
+    private String Tipo_ID;
+    private int Numero_ID;
+    private Date Fecha_Expedicion;
+    private String Ciudad_Expedicion;
+    private Date Fecha_Nacimiento;
+    private String Lugar_Nacimiento;
+    private int Edad;
+    private double Estatura;
+    private String Genero;
+    private String Estado_Civil;
+    private String RH;
+    private String Grupo_Sanguineo;
+    private String Localidad;
+    private String Ciudad_Residencia;
+    private String Barrio;
+    private String Direccion;
+    private String Telefono_Movil;
+    private String Telefono_Fijo;
+    private String EPS;
+    private String AFP;
+    private String Escolaridad;
+    private String Profesion;
+    private String Talla_Camisa;
+    private String Talla_Pantalon;
+    private String Talla_Chaqueta;
+    private String Talla_Calzado;
+    private String Emergencia_NombreCompleto;
+    private String Emergencia_Parentesco;
+    private String Emergencia_TelefonoMovil;
+    private String Emergencia_TelefonoFijo;
+    private int usuarios_idusuario;
 
-    public Trabajador(int idtrabajador, String Nombre_Completo, String Correo_Electronico, char Tipo_ID, int Numero_ID, Date Fecha_Expedicion, String Ciudad_Expedicion, Date Fecha_Nacimiento, String Lugar_Nacimiento, int Edad, double Estatura, String Genero, String Estado_Civil, String RH, String Grupo_Sanguineo, String Localidad, String Ciudad_Residencia, String Barrio, String Direccion, String Telefono_Movil, String Telefono_Fijo, String EPS, String AFP, String Escolaridad, String Profesion, String Talla_Camisa, String Talla_Pantalon, String Talla_Chaqueta, String Talla_Calzado, String Emergencia_NombreCompleto, String Emergencia_Parentesco, String Emergencia_TelefonoMovil, String Emergencia_TelefonoFijo, int usuarios_idusuario) {
+    public Trabajador() {
+    }
+
+    
+    /*
+    // Método constructor para inicializar los atributos
+    public Trabajador(int idtrabajador, String Nombre_Completo, String Correo_Electronico, String Tipo_ID, int Numero_ID, Date Fecha_Expedicion, String Ciudad_Expedicion, Date Fecha_Nacimiento, String Lugar_Nacimiento, int Edad, double Estatura, String Genero, String Estado_Civil, String RH, String Grupo_Sanguineo, String Localidad, String Ciudad_Residencia, String Barrio, String Direccion, String Telefono_Movil, String Telefono_Fijo, String EPS, String AFP, String Escolaridad, String Profesion, String Talla_Camisa, String Talla_Pantalon, String Talla_Chaqueta, String Talla_Calzado, String Emergencia_NombreCompleto, String Emergencia_Parentesco, String Emergencia_TelefonoMovil, String Emergencia_TelefonoFijo, int usuarios_idusuario) {
         this.idtrabajador = idtrabajador;
         this.Nombre_Completo = Nombre_Completo;
         this.Correo_Electronico = Correo_Electronico;
@@ -80,11 +83,9 @@ public class Trabajador {
         this.Emergencia_TelefonoMovil = Emergencia_TelefonoMovil;
         this.Emergencia_TelefonoFijo = Emergencia_TelefonoFijo;
         this.usuarios_idusuario = usuarios_idusuario;
-    }
-    
+    }*/
     
     // Getters y setters - Acceder y Modificar
-
     public int getIdtrabajador() {
         return idtrabajador;
     }
@@ -109,11 +110,11 @@ public class Trabajador {
         this.Correo_Electronico = Correo_Electronico;
     }
 
-    public char getTipo_ID() {
+    public String getTipo_ID() {
         return Tipo_ID;
     }
 
-    public void setTipo_ID(char Tipo_ID) {
+    public void setTipo_ID(String Tipo_ID) {
         this.Tipo_ID = Tipo_ID;
     }
 
@@ -357,6 +358,5 @@ public class Trabajador {
         this.usuarios_idusuario = usuarios_idusuario;
     }
     
-    
-    
+        
 }

@@ -1,24 +1,23 @@
 
-package Gestionar_Reportes;
+package modelo;
 
 import java.sql.Date;
 
 //Definición de la clase Reportes
 public class Reportes {
     
-    //Definición de los atributos o variables de la clase
-    public int idreportes;
-    public String Nombre_Trabajador;
-    public int trabajador_Numero_ID;
-    public String Nombre_Producto;
-    public java.sql.Date Fecha_Inicio;
-    public java.sql.Date Fecha_Final;
-    public String Proyecto;
-    public String Area;
-    public int usuarios_idusuario;
+    //Definición de los atributos o variables
+    private int idreportes;
+    private String Nombre_Trabajador;
+    private int trabajador_Numero_ID;
+    private String Nombre_Producto;
+    private Date Fecha_Inicio;
+    private Date Fecha_Final;
+    private String Proyecto;
+    private String Area;
+    private int usuarios_idusuario;
 
-    
-    // Método constructor para inicializar los atributos
+    //Método constructor para inicializar las variables
     public Reportes(int idreportes, String Nombre_Trabajador, int trabajador_Numero_ID, String Nombre_Producto, Date Fecha_Inicio, Date Fecha_Final, String Proyecto, String Area, int usuarios_idusuario) {
         this.idreportes = idreportes;
         this.Nombre_Trabajador = Nombre_Trabajador;
@@ -31,8 +30,7 @@ public class Reportes {
         this.usuarios_idusuario = usuarios_idusuario;
     }
 
-    
-    // Getters y setters - Acceder y Modificar
+    //Getters y Setters - Acceder y Modificar
     public int getIdreportes() {
         return idreportes;
     }

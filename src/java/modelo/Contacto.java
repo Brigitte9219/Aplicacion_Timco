@@ -1,20 +1,18 @@
 
-package Contacto;
+package modelo;
 
-//Definición de la clase Contacto
+//Definición de la clase contacto
 public class Contacto {
     
-    
-    //Definición de los atributos o variables de la clase
-    public int idcontacto;
-    public String Nombre_Trabajador;
-    public int trabajador_Numero_ID;
-    public String Correo_Electronico;
-    public String Asunto;
-    public String Mensaje;
+    //Definición de las variables o atributos
+    private int idcontacto;
+    private String Nombre_Trabajador;
+    private int trabajador_Numero_ID;
+    private String Correo_Electronico;
+    private String Asunto;
+    private String Mensaje;
 
-    
-    // Método constructor para inicializar los atributos
+    //Metodo constructor para inicializar los atributos
     public Contacto(int idcontacto, String Nombre_Trabajador, int trabajador_Numero_ID, String Correo_Electronico, String Asunto, String Mensaje) {
         this.idcontacto = idcontacto;
         this.Nombre_Trabajador = Nombre_Trabajador;
@@ -24,8 +22,7 @@ public class Contacto {
         this.Mensaje = Mensaje;
     }
 
-    // Getters y setters - Acceder y Modificar
-    
+    //Getters y Setters - Acceder y Modificar
     public int getIdcontacto() {
         return idcontacto;
     }

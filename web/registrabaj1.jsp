@@ -54,23 +54,23 @@
 <!--Sección 3: Formulario-->
 <section class="formu">
     <article class="izqui">
-    <form action="">
-        <input type="text" placeholder="Nombre completo"><br>
-        <input type="text" placeholder="Tipo de identificación"><br>
-        <input type="date" placeholder="Fecha de expedición">
-        <input type="date" placeholder="Fecha de nacimiento">
-        <input type="number" placeholder="Edad">
-        <input type="text" placeholder="Género">
+    <form action="SvRegistrabaj1" method="POST">
+        <input type="text" name="nombreCompleto" placeholder="Nombre completo"><br>
+        <input type="text" name="tipoDeIdentificacion" placeholder="Tipo de identificación"><br>
+        <input type="date" name="fechaDeExpedicion" placeholder="Fecha de expedición">
+        <input type="date" name="fechaDeNacimiento" placeholder="Fecha de nacimiento">
+        <input type="number" name="edad" placeholder="Edad">
+        <input type="text" name="genero" placeholder="Género">
     </form>
     </article>
     <aside class="der">
-    <form action="">
-        <input type="email" placeholder="Correo electrónico">
-        <input type="number" placeholder="No de identificación">
-        <input type="text" placeholder="Ciudad de expedición">
-        <input type="text" placeholder="Lugar de nacimiento">
-        <input type="number" placeholder="Estatura">
-        <input type="text" placeholder="Estado civil">
+    <form action="SvRegistrabaj1" method="POST">
+        <input type="email" name="correoElectronico" placeholder="Correo electrónico">
+        <input type="number" name="noDeIdentificacion" placeholder="No de identificación">
+        <input type="text" name="ciudadDeExpedicion" placeholder="Ciudad de expedición">
+        <input type="text" name="lugarDeNacimiento" placeholder="Lugar de nacimiento">
+        <input type="number" name="estatura" placeholder="Estatura">
+        <input type="text" name="estadoCivil" placeholder="Estado civil">
     </form>
     </aside>
 </section>

@@ -1,38 +1,36 @@
 
-package Pqrsf;
+package modelo;
 
-//Definición de la clase Pqrsf
+//Declaración de la clase Pqrsf
 public class Pqrsf {
     
-    //Definición de los atributos o variables de la clase
-    public int idpqrsf;
-    public String Nombre_Trabajador;
-    public int trabajador_Numero_ID;
-    public String Entidad_Empresa;
-    public String Cargo;
-    public String Ciudad;
-    public String Telefono_movil;
-    public String Correo_Electronico;
-    public String Elija_Opcion;
-    public String Mensaje;
+    //Declaración de las variables o atributos
+    private int idpqrsf;
+    private String Nombre_Trabajador;
+    private int trabajador_Numero_ID;
+    private String Entidad_Empresa;
+    private String Cargo;
+    private String Ciudad;
+    private String Telefono_Movil;
+    private String Correo_Electronico;
+    private String Elija_Opcion;
+    private String Mensaje;
 
-    
-    // Método constructor para inicializar los atributos
-    public Pqrsf(int idpqrsf, String Nombre_Trabajador, int trabajador_Numero_ID, String Entidad_Empresa, String Cargo, String Ciudad, String Telefono_movil, String Correo_Electronico, String Elija_Opcion, String Mensaje) {
+    //Método constructor para inicializar los atributos
+    public Pqrsf(int idpqrsf, String Nombre_Trabajador, int trabajador_Numero_ID, String Entidad_Empresa, String Cargo, String Ciudad, String Telefono_Movil, String Correo_Electronico, String Elija_Opcion, String Mensaje) {
         this.idpqrsf = idpqrsf;
         this.Nombre_Trabajador = Nombre_Trabajador;
         this.trabajador_Numero_ID = trabajador_Numero_ID;
         this.Entidad_Empresa = Entidad_Empresa;
         this.Cargo = Cargo;
         this.Ciudad = Ciudad;
-        this.Telefono_movil = Telefono_movil;
+        this.Telefono_Movil = Telefono_Movil;
         this.Correo_Electronico = Correo_Electronico;
         this.Elija_Opcion = Elija_Opcion;
         this.Mensaje = Mensaje;
     }
 
-    
-    // Getters y setters - Acceder y Modificar
+    //Getters y Setters - Acceder y Modificar
     public int getIdpqrsf() {
         return idpqrsf;
     }
@@ -81,12 +79,12 @@ public class Pqrsf {
         this.Ciudad = Ciudad;
     }
 
-    public String getTelefono_movil() {
-        return Telefono_movil;
+    public String getTelefono_Movil() {
+        return Telefono_Movil;
     }
 
-    public void setTelefono_movil(String Telefono_movil) {
-        this.Telefono_movil = Telefono_movil;
+    public void setTelefono_Movil(String Telefono_Movil) {
+        this.Telefono_Movil = Telefono_Movil;
     }
 
     public String getCorreo_Electronico() {
@@ -112,7 +110,6 @@ public class Pqrsf {
     public void setMensaje(String Mensaje) {
         this.Mensaje = Mensaje;
     }
-    
     
     
     

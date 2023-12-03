@@ -1,27 +1,26 @@
 
-package Gestion_Usuarios;
+package modelo;
 
 import java.sql.Date;
 
-//Definición de la clase Usuarios
+//Declaración de la clase Usuarios
 public class Usuarios {
     
-    //Definición de los atributos o variables de la clase
-    public int idusuario;
-    public String Nombre_Completo;
-    public int trabajador_Numero_ID;
-    public String Usuario;
-    public String Contraseña;
-    public String Confirmar_Contraseña;
-    public String Proyecto;
-    public String Genero;
-    public java.sql.Date Fecha_Nacimiento;
-    public String Correo_Electronico;
-    public String Telefono_Movil;
+    //Definición de los atributos o variables
+    private int idusuario;
+    private String Nombre_Completo;
+    private int trabajador_Numero_ID;
+    private String Usuario;
+    private String Contraseña;
+    private String Confirmar_Contraseña;
+    private String Proyecto;
+    private String Género;
+    private Date Fecha_Nacimiento;
+    private String Correo_Electronico;
+    private String Telefono_Movil;
 
-    
-    // Método constructor para inicializar los atributos
-    public Usuarios(int idusuario, String Nombre_Completo, int trabajador_Numero_ID, String Usuario, String Contraseña, String Confirmar_Contraseña, String Proyecto, String Genero, Date Fecha_Nacimiento, String Correo_Electronico, String Telefono_Movil) {
+    //Método constructor para inicializar las variables
+    public Usuarios(int idusuario, String Nombre_Completo, int trabajador_Numero_ID, String Usuario, String Contraseña, String Confirmar_Contraseña, String Proyecto, String Género, Date Fecha_Nacimiento, String Correo_Electronico, String Telefono_Movil) {
         this.idusuario = idusuario;
         this.Nombre_Completo = Nombre_Completo;
         this.trabajador_Numero_ID = trabajador_Numero_ID;
@@ -29,15 +28,13 @@ public class Usuarios {
         this.Contraseña = Contraseña;
         this.Confirmar_Contraseña = Confirmar_Contraseña;
         this.Proyecto = Proyecto;
-        this.Genero = Genero;
+        this.Género = Género;
         this.Fecha_Nacimiento = Fecha_Nacimiento;
         this.Correo_Electronico = Correo_Electronico;
         this.Telefono_Movil = Telefono_Movil;
     }
 
-    
-    // Getters y setters - Acceder y Modificar
-    
+    //Getters y Setters - Acceder y Modificar
     public int getIdusuario() {
         return idusuario;
     }
@@ -94,12 +91,12 @@ public class Usuarios {
         this.Proyecto = Proyecto;
     }
 
-    public String getGenero() {
-        return Genero;
+    public String getGénero() {
+        return Género;
     }
 
-    public void setGenero(String Genero) {
-        this.Genero = Genero;
+    public void setGénero(String Género) {
+        this.Género = Género;
     }
 
     public Date getFecha_Nacimiento() {

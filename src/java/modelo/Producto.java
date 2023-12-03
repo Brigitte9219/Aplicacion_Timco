@@ -1,27 +1,26 @@
 
-package Informacion_Producto;
+package modelo;
 
 import java.sql.Date;
 
-//Definición de la clase Producto
+//Definici{on de la clase Producto
 public class Producto {
     
-    //Definición de los atributos o variables de la clase
-    public int idproducto;
-    public String Nombre_Producto;
-    public String Codigo_Interno;
-    public String Marca;
-    public String Serie;
-    public java.sql.Date Fecha_Fabricacion;
-    public String Referencia;
-    public String Lote;
-    public String Norma_Tecnica;
-    public int Cantidad;
-    public String Proveedor;
-    public int usuarios_idusuario;
-    
+    //Definición de las variables o atributos
+    private int idproducto;
+    private String Nombre_Producto;
+    private String Codigo_Interno;
+    private String Marca;
+    private String Serie;
+    private Date Fecha_Fabricacion;
+    private String Referencia;
+    private String Lote;
+    private String Norma_Tecnica;
+    private int Cantidad;
+    private String Proveedor;
+    private int usuarios_idusuario;
 
-    // Método constructor para inicializar los atributos
+   /* //Método constructor para inicializar los atributos
     public Producto(int idproducto, String Nombre_Producto, String Codigo_Interno, String Marca, String Serie, Date Fecha_Fabricacion, String Referencia, String Lote, String Norma_Tecnica, int Cantidad, String Proveedor, int usuarios_idusuario) {
         this.idproducto = idproducto;
         this.Nombre_Producto = Nombre_Producto;
@@ -35,11 +34,9 @@ public class Producto {
         this.Cantidad = Cantidad;
         this.Proveedor = Proveedor;
         this.usuarios_idusuario = usuarios_idusuario;
-    }
+    }*/
 
-      
-    // Getters y setters - Acceder y Modificar
-
+    //Getters y Setters - Acceder y Modificar
     public int getIdproducto() {
         return idproducto;
     }
@@ -135,7 +132,8 @@ public class Producto {
     public void setUsuarios_idusuario(int usuarios_idusuario) {
         this.usuarios_idusuario = usuarios_idusuario;
     }
-       
+    
+    
     
     
 }
